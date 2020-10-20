@@ -1,0 +1,76 @@
+!table
+!version 550
+!charset WindowsLatin1
+
+Definition Table
+  Type NATIVE Charset "WindowsLatin1"
+  Fields 64
+    COD_SET_ZON Char (3) ;
+    COD_QDR_ZON Char (3) ;
+    COD_LOG_ZON Char (6) ;
+    COD_CNDM_ZON Char (2) ;
+    COD_LOTE_ZON Char (4) ;
+    SGL_SUBP_EDIC Char (2) ;
+    COD_TSTD_ZON Char (2) ;
+    IND_VRFC_EDIC Char (1) ;
+    IND_EXCL_INCL_CRGA Char (1) ;
+    SGL_ZONA_01_ZON Char (15) ;
+    COD_PRMR_01_ZON Decimal (6, 0) ;
+    SGL_LNDR_01_ZON Char (15) ;
+    COD_TIP_LEGC_01 Char (2) ;
+    COD_LEGC_01_ZON Decimal (8, 0) ;
+    ANO_LEGC_01_ZON Decimal (6, 0) ;
+    IND_ADCA_CRGA Char (1) ;
+    SGL_ZONA_02_ZON Char (15) ;
+    COD_PRMR_02_ZON Decimal (6, 0) ;
+    SGL_LNDR_02_ZON Char (15) ;
+    COD_TIP_LEGC_02 Char (2) ;
+    COD_LEGC_02_ZON Decimal (8, 0) ;
+    ANO_LEGC_02_ZON Decimal (6, 0) ;
+    SGL_ZONA_03_ZON Char (15) ;
+    COD_PRMR_03_ZON Decimal (6, 0) ;
+    SGL_LNDR_03_ZON Char (15) ;
+    COD_TIP_LEGC_03 Char (2) ;
+    COD_LEGC_03_ZON Decimal (8, 0) ;
+    ANO_LEGC_03_ZON Decimal (6, 0) ;
+    SGL_ZONA_04_ZON Char (15) ;
+    COD_PRMR_04_ZON Decimal (6, 0) ;
+    SGL_LNDR_04_ZON Char (15) ;
+    COD_TIP_LEGC_04 Char (2) ;
+    COD_LEGC_04_ZON Decimal (8, 0) ;
+    ANO_LEGC_04_ZON Decimal (6, 0) ;
+    SGL_ZONA_05_ZON Char (15) ;
+    COD_PRMR_05_ZON Decimal (6, 0) ;
+    SGL_LNDR_05_ZON Char (15) ;
+    COD_TIP_LEGC_05 Char (2) ;
+    COD_LEGC_05_ZON Decimal (8, 0) ;
+    ANO_LEGC_05_ZON Decimal (6, 0) ;
+    SGL_ZONA_06_ZON Char (15) ;
+    COD_PRMR_06_ZON Decimal (6, 0) ;
+    SGL_LNDR_06_ZON Char (15) ;
+    COD_TIP_LEGC_06 Char (2) ;
+    COD_LEGC_06_ZON Decimal (8, 0) ;
+    ANO_LEGC_06_ZON Decimal (6, 0) ;
+    IND_EXCL_OBS Char (1) ;
+    TXT_OBS_01_EDIC Char (70) ;
+    TXT_OBS_02_EDIC Char (70) ;
+    TXT_OBS_03_EDIC Char (70) ;
+    TXT_OBS_04_EDIC Char (70) ;
+    TXT_OBS_05_EDIC Char (70) ;
+    TXT_OBS_06_EDIC Char (70) ;
+    TXT_OBS_07_EDIC Char (70) ;
+    TXT_OBS_08_EDIC Char (70) ;
+    TXT_OBS_09_EDIC Char (70) ;
+    COD_SET_ZON_2 Char (3) ;
+    COD_QDR_ZON_2 Char (3) Index 1 ;
+    COD_TIP_QDR_ZON Char (2) ;
+    TXT_ZON_FINL Char (254) ;
+    TXT_OBS_01_ZON Char (254) ;
+    TXT_OBS_02_ZON Char (254) ;
+    TXT_OBS_03_ZON Char (254) ;
+    TXT_OBS_04_ZON Char (254) ;
+begin_metadata
+"\IsReadOnly" = "FALSE"
+"\MapInfo" = ""
+"\MapInfo\TableID" = "86592523-9779-45e6-bd92-8e9b0aeebd1b"
+end_metadata
